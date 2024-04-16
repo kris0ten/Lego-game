@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="588.5" scrolly="321" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="413.9189191999744" scrolly="274.3621179316915" scale="0.4325546626115876">
+  <tab name="main" type="MainTab" active="true" scrollx="114.04701023036387" scrolly="13.8104814292833" scale="0.7959893115433289">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="+%RdVT3q98~p=8%F|GWD" type="">r</variable>
       <variable id="pM$:1=s#]Rz~-/4axwyI" type="">loc</variable>
@@ -476,50 +476,6 @@
                   </value>
                 </block>
               </statement>
-              <statement name="DO_DROP">
-                <block type="dictSet" id="$w8QT!^75Gr=KVQ9()Lq">
-                  <value name="DICT">
-                    <block type="variables_get" id="#pK.cct!f,tG4zMG2qmN">
-                      <field name="VAR" id="pM$:1=s#]Rz~-/4axwyI">loc</field>
-                    </block>
-                  </value>
-                  <value name="KEY">
-                    <shadow type="text" id="B`(oa0}Q/XcjBVbG(T(d">
-                      <field name="TEXT">someKey</field>
-                    </shadow>
-                    <block type="variables_get" id="],To!iz~7=Yl0,?I?3*h">
-                      <field name="VAR" id="s?C0un4b_Qu1K?FCsP-k">t</field>
-                    </block>
-                  </value>
-                  <value name="VALUE">
-                    <block type="getObjTransform" id="qC]8kNF5|I4W$#2rS_p@">
-                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
-                      <field name="MODE">position</field>
-                      <field name="COORD">xyz</field>
-                      <value name="TARGETOBJ">
-                        <shadow type="objectList" id="r~/{b4*beV~/wB-:b@?s">
-                          <field name="FIELDNAME">&lt;none&gt;</field>
-                        </shadow>
-                        <block type="variables_get" id="Env!JEF%Y/a19UkJ4D{{">
-                          <field name="VAR" id="s?C0un4b_Qu1K?FCsP-k">t</field>
-                        </block>
-                      </value>
-                    </block>
-                  </value>
-                  <next>
-                    <block type="console.log" id="eY9n-|V?IuAr6?mUT^bS">
-                      <value name="VALUE">
-                        <shadow type="text" id="vqd!1hF(2M-%$h=GCKTc">
-                          <field name="TEXT">Hello, Verge!</field>
-                        </shadow>
-                        <block type="variables_get" id="+I7v4S[fvTBWs(9^m*kG">
-                          <field name="VAR" id="pM$:1=s#]Rz~-/4axwyI">loc</field>
-                        </block>
-                      </value>
-                    </block>
-                  </next>
-                </block>
-              </statement>
             </block>
           </next>
         </block>
@@ -717,5 +673,5 @@
       </next>
     </block>
   </tab>
-  <editorsettings viewport-x="793.8" viewport-y="28" viewport-w="541.2" viewport-h="359" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="793.8" viewport-y="28" viewport-w="541.2" viewport-h="359" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
